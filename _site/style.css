@@ -1,0 +1,160 @@
+/*default setting*/
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.content {
+  padding: 0px 50px 0px 50px;
+}
+:root {
+  --title: #343436;
+  --lime: #b6fc5a;
+  --link: #616161;
+  --paragraph: #424345;
+}
+h2,
+h3 {
+  color: var(--title);
+  font-weight: 500;
+}
+.spacer30 {
+  margin-top: 30px;
+}
+.spacer50 {
+  margin-top: 50px;
+}
+.spacer100 {
+  margin-top: 100px;
+}
+a {
+  color: var(--link);
+}
+a:hover {
+  font-weight: 700;
+  color: var(--title);
+}
+.weight600 {
+  font-weight: 600;
+}
+
+/*End Default*/
+/*Nav*/
+.navbar {
+  padding: 20px 35px 0px 35px;
+}
+.nav-link {
+  color: var(--link);
+  font-weight: 500;
+}
+.underline-animation {
+  display: inline-block;
+  position: relative;
+}
+.underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 50px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--lime);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+footer {
+  background: #424345;
+}
+/*End Nav*/
+/*index*/
+.news {
+  padding: 50px;
+  background: #f7f7f7;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+/*end index*/
+
+/*publication*/
+.icon {
+  width: 33px;
+  height: 38px;
+}
+.btn {
+  padding: 3px 5px 3px 5px;
+}
+#button {
+  font-size: 14px;
+}
+/*end publication*/
+
+/*PEOPLE*/
+.peopleimg {
+  width: 352px;
+  height: 414px;
+  filter: grayscale(100%);
+}
+.peopleimg:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+.studentimg {
+  width: 100%;
+  filter: grayscale(100%);
+}
+.studentimg:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+/*END PEOPLE*/
+/*Join*/
+.email_img {
+  width: 15%;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 5px;
+}
+/*end-join*/
+
+/*footer*/
+footer {
+  padding: 50px;
+}
+.nav-link-footer {
+  color: white;
+  text-decoration: none;
+}
+.nav-link-footer:hover {
+  text-decoration: underline;
+  color: white;
+  font-weight: 500;
+}
+.footer-h5 {
+  color: white;
+}
+
+.whitetext {
+  color: white;
+  font-size: 14px;
+}
+.copyright {
+  color: white;
+  font-size: 14px;
+}
+.logo_white {
+  width: 45px;
+  height: 45px;
+}
+
+/*end footer*/
+
+/*responsive*/
+@media (max-width: 960px) {
+  .email_img {
+    min-width: 50%;
+  }
+}
+/*end responsive*/
