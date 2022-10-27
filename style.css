@@ -2,14 +2,20 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
+/* .container {
+  min-height:;
+} */
 .content {
   padding: 0px 50px 0px 50px;
 }
 :root {
   --title: #343436;
-  --lime: #b6fc5a;
+  --lime: #94ea08;
   --link: #616161;
   --paragraph: #424345;
+}
+.lime {
+  color: var(--lime);
 }
 h2,
 h3 {
@@ -74,7 +80,7 @@ footer {
 .news {
   padding: 50px;
   background: #f7f7f7;
-  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.15); */
   border-radius: 20px;
 }
 /*end index*/
