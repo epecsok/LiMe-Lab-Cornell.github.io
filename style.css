@@ -118,7 +118,7 @@ footer {
 /*END PEOPLE*/
 /*Join*/
 .email_img {
-  width: 15%;
+  width: 18%;
   border-radius: 5px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 5px;
 }
@@ -160,6 +160,17 @@ footer {
 @media (max-width: 960px) {
   .email_img {
     min-width: 50%;
+  }
+  .studentimg {
+    margin-bottom: 20px;
+  }
+  #textCol {
+    margin-bottom: 20px;
+  }
+  .peopleimg {
+    width: 317px;
+    height: 373px;
+    margin-bottom: 20px;
   }
   .container {
     min-height: 100%;
