@@ -4,9 +4,9 @@
 
 ### Prerequisite
 
-- The website is built using [jekyll] (https://jekyllrb.com/).
+- The website is built using [jekyll](https://jekyllrb.com/).
 - Install Jekyll [Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/).
-- If you cannot run Jekyll, check [GETTING STARTED] (https://jekyllrb.com/docs/) section.
+- If you cannot run Jekyll, check [GETTING STARTED](https://jekyllrb.com/docs/) section.
 
 ### Local development
 
@@ -48,4 +48,4 @@
 
 ```
 
-- For the special character, JSON can read ASCII code or the rendered ASCII code. For example, `&#214;` = Ö, you could type either `&#214;` or Ö in JSON file.
+- For the special character, JSON can read ASCII code or the rendered ASCII code. For example, `&#214;` = Ö, you could type either `&#214;` or Ö in the JSON file.
