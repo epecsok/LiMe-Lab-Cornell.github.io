@@ -1,0 +1,16 @@
+{
+  "label1": "image\\Theoretical.svg",
+  "label2": "image\\experiment.svg",
+  "author": "Aparicio, H., Levy, R., Coppock, E.",
+  "year": "",
+  "title": "<i>Referential garden path effects in modified Haddock descriptions.</i>",
+  "abstract": "As Haddock (1987) points out, the <i>rabbit in the hat</i> is perfectly felicitous in a scenario with multiple hats. The uniqueness requirement of the lower definite in these nested <i>(definite) descriptions </i>pertains to rich descriptive content: not <i>hat</i> (absolute reading), but <i>rabbit-containing hat </i>(relative reading). <b>The incrementalist view: </b>For Haddock, the loosening of the uniqueness requirement is due to an incremental procedure by which constraints are successively imposed on discourse referents. Haddock envisions a constraint satisfaction problem that can be formalized as a set of open formulas like <b>rabbit</b>(&#119909;), <b>in</b>(&#119909;, &#119910;), and <b>hat</b>(&#119910;), applied in sequence. The uniqueness requirement of the inner definite is satisfied if there is only one satisfier of &#119910; left, or in other words, if the <i>candidate set </i>has only one element. <b>The scope-based view: </b>Like Haddock, Bumford (2017) assumes that <i>the</i> imposes a cardinality-one check on the candidate set for the relevant discourse referent, but it is scope that determines what constraints have applied prior to this check. Both views predict relative-like readings for nested definite descriptions containing gradable modifiers like the <i>rabbit in the big/bigger bag,</i> but only the scope view predicts absolute readings. In this paper, we give experimental evidence for the scope-based approach, by showing that participants access absolute interpretations. The evidence comes from <b>referential garden paths</b>, where a dynamic constraint evaluation process temporarily settles on the wrong referent before eventually failing. It is exactly when the scope-based theory predicts referential garden paths—including absolute readings—that we observe penalties.",
+  "BibTeX": "@article{aparicioreferential,\n title={Referential garden path effects in modified Haddock descriptions},\n author={Aparicio, Helena and Levy, Roger and Coppock, Elizabeth}\n }",
+  "PDF": "",
+  "group": "myGroup",
+  "groupId": "#myGroup",
+  "ahref": "#Abstract",
+  "aria-controls1": "Abstract",
+  "data-bs-target": "#BibTeX",
+  "aria-controls2": "BibTeX"
+}
