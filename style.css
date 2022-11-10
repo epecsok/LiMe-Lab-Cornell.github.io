@@ -170,6 +170,9 @@ footer {
   .studentimg {
     margin-bottom: 20px;
   }
+  #customize-space-100 {
+    margin-top: 30px;
+  }
   #textCol {
     margin-bottom: 20px;
   }
@@ -180,10 +183,13 @@ footer {
   }
   .container {
     min-height: 100%;
-    /* padding-bottom: 500px; */
+    /* padding-bottom: 50px; */
   }
   .footer {
     height: 500px;
+  }
+  .footer-h5 {
+    font-size: 18px;
   }
 }
 /*end responsive*/
