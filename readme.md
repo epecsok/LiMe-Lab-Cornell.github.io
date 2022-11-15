@@ -17,9 +17,14 @@
 ### Deployment
 
 - `git status` view changes
-- `git add .` add changes.
+- `git add .` add all changes.
+- `git add filepath` add selected changes. (after typing the git status the path of the changed file will appear in the terminal)
 - `git commit -m "your comment"` add comment and commit.
 - `git push` push changes to repo.
+
+### Update local repository
+
+- `git pull` Pull the code from the repository.
 
 ### JSON file
 
