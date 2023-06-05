@@ -105,8 +105,7 @@ footer {
 
 /*PEOPLE*/
 .peopleimg {
-  width: 352px;
-  height: 414px;
+  width: 250px;
   filter: grayscale(100%);
 }
 .peopleimg:hover {
@@ -114,7 +113,7 @@ footer {
   transition: 0.5s;
 }
 .studentimg {
-  width: 100%;
+  width: 250px;
   filter: grayscale(100%);
 }
 .studentimg:hover {
