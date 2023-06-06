@@ -1,0 +1,125 @@
+/*global setting*/
+.container {
+  min-height: 100vh;
+  position: relative;
+}
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+}
+p {
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  font-family: "DM Serif Text", serif;
+  color: #7e7e7e;
+}
+a:hover {
+  color: black;
+}
+/*nav bar*/
+
+.container-fluid {
+  padding-top: 15px;
+  align-items: baseline;
+}
+
+.navbar-brand {
+  width: 38px;
+  height: 38px;
+  opacity: 60%;
+  /* border: #737373 1px solid; */
+}
+.navbar-brand:hover {
+  opacity: 100%;
+}
+.nav_icon {
+  /* border: #737373 1px solid; */
+  filter: grayscale(100%);
+  width: 20px;
+  height: 20px;
+  align-items: baseline;
+}
+#github_icon {
+  opacity: 50%;
+  width: 20px;
+  height: 20px;
+}
+#github_icon:hover {
+  transition: 0.3s;
+  opacity: 80%;
+}
+.nav_icon:hover {
+  transition: 0.3s;
+  filter: grayscale(0%);
+}
+/*end of the nav bar*/
+
+/*Home page button*/
+#home_button1 {
+  background: #737373;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+}
+#home_button1:hover {
+  transition: 0.2s;
+  background: #a3a3a3;
+}
+#home_button2 {
+  border: 1.5px solid #737373;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 4px 47px 4px 47px;
+  margin-left: 30px;
+}
+#home_button2:hover {
+  background: #a3a3a3;
+  color: #ffffff;
+  border: none;
+  transition: 0.2s;
+  padding: 5px 48px 5px 48px;
+}
+/*end of the home button*/
+
+/*home page*/
+.content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.col-lg-6 {
+  padding-left: 30px;
+}
+
+/*end of the home page*/
+
+/*reponsive setting*/
+@media (min-width: 2000px) {
+  .content {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-55%);
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    all: unset;
+  }
+  .navbar {
+    margin: 15px;
+  }
+  .content {
+    margin: 15px;
+    position: unset;
+    top: unset;
+    transform: unset;
+  }
+
+  .col-lg-4 {
+    margin: 30px 15px 0px 15px;
+  }
+}
